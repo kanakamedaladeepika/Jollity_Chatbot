@@ -1,0 +1,160 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- motivation
+- depression
+- angry
+- judge
+- lonely
+- bored
+- anxiety
+- stress
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+  - text: "Hey! How are you doing?"
+
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up [image] {https://i.imgur.com/nGF1K8f.jpg}"
+  - text: "Here are few jokes that can cheer you up [video] {https://www.youtube.com/watch?v=MSRv4AvffXE}"
+  - text: "let us hear a song [video] {https://www.youtube.com/watch?v=kJQP7kiw5Fk}"
+  - text: "Here is something that makes you smile [video] {https://www.youtube.com/watch?v=jv5RtGHKLWg}"
+  - text: "Listen to this song which may cheer u up [video] {https://www.youtube.com/watch?v=fKopy74weus}"
+  - text: "Here is a song to cheer u up [video] {https://youtu.be/W0DM5lcj6mw}"
+
+  utter_bored:
+   - text: "These are few things you can do while your bored [article] {https://www.goodhousekeeping.com/life/a26872864/what-to-do-when-bored/}"
+   - text: "listen to songs if your bored here is a song for u [video] {https://youtu.be/KVymk9yYiak}"
+   - text: "Here are few things you can do if ur bored [article] {https://www.thecut.com/article/things-to-do-when-bored.html}"
+   - text: "Here are few funny things you can do while your bored [video] {https://www.youtube.com/watch?v=xmiLc784biw}"
+   - text: " easy science experiments you can do if your bored [video] {https://www.youtube.com/watch?v=QYTMsxc0hZM}"
+   
+
+  utter_motivation:
+  - text: "Here is a video that help you to be motivated [video] {https://www.youtube.com/watch?v=0fNubOqXQZo}"
+  - text: "Here is a video that helps you be get motivated [video] {https://www.youtube.com/watch?v=wnHW6o8WMas}"
+  - text: "Here is something that will help you to stay motivated [video] {https://www.youtube.com/watch?v=68IcEa2BRC8}"
+  - text: "Here is something that can help you to be motivated [video] {https://www.youtube.com/watch?v=t8ApMdi24LI}"
+  - text: "Here is something that can help you [video] {https://www.youtube.com/watch?v=h1rA2jMS-6I}"
+  - text: "motivate yourself by seeing this [video] {https://www.youtube.com/watch?v=tbnzAVRZ9Xc}"
+  - text: "Stay motivated by seeing this [video] {https://www.youtube.com/watch?v=Wcf5b3mENJU}"
+  - text: "See this to remember your dreams [video] {https://www.youtube.com/watch?v=C31rj-bZ7dA}"
+  - text: "See this [video] {https://www.youtube.com/watch?v=YPTuw5R7NKk}"
+  - text: "Here is something that can motivate you [video] {https://www.youtube.com/watch?v=Q6HnFuzSJdQ}"
+  - text: "Here is a quote for you [image] {https://cdn3.geckoandfly.com/wp-content/uploads/2018/04/iphone-smartphone-wallpaper-033.jpg}"
+  - text: "Here is a quote for you [image] {https://www.spiritbutton.com/wp-content/uploads/2018/02/5ebd3eacef84c64260c27c29f647fd46.jpg}"
+  - text: "Tools to achieve your goals [video] {https://www.youtube.com/watch?v=_MeYflV-TOQ}"
+  - text: "Here is  how you can build your life [video] {https://www.youtube.com/watch?v=fQNFMxYxFSQ}"
+
+
+  utter_judge:
+  - text: "Before you judge someone watch this [video] {https://www.youtube.com/watch?v=n5E8gyDPs70}"
+  - text: "This is how you can overcome the fear of being judged [video] {https://www.youtube.com/watch?v=RlF-tO2YVPg&t=3s}"
+  - text: "Are you worried about being judged [video] {https://www.youtube.com/watch?v=zFVryDsPH08}"
+  - text: "Here is how you can deal with judgemental people [video] {https://www.youtube.com/watch?v=HnmVZxhNrUo}"
+  - text: "Read this [image] {https://cdn.quotesgram.com/img/13/53/2058331810-LIVELIFEFORYOU.png}"
+  - text: "Read this [image] {https://bhavnahinduja.files.wordpress.com/2015/02/fear-of-rejection.jpg}"
+  - text: "Think before you judge [video] {https://www.youtube.com/watch?v=rmkQ_wAgwXo}"
+  - text: "How to stop caring about what people think [video] {https://www.youtube.com/watch?v=IGtoJlVptow}"
+
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+
+  utter_deny:
+  - text: "How can i help you?"
+  - text: "Do you have anything to share with me?"
+  - text: "What can i do for you?"
+
+
+  utter_depression:
+  - text: "Do you want to know what depression is [video] {https://www.webmd.com/depression/questions-and-answers-about-depression#1}"
+  - text: "Share your problem with me"
+  - text: "Understand what's depression [video] {https://www.youtube.com/watch?v=OJ7cf-AgLTQ}"
+  - text: "See this story about depression  [video] {https://www.youtube.com/watch?v=cRggHpa6fVA&t=1s}"
+  - text: "Concentrate on you mental health [video] {https://www.youtube.com/watch?v=Jgi2c-4p-E4&t=10s}"
+  - text: "Here are tips for good mental health [article] {https://www.peoplefirstinfo.org.uk/health-and-well-being/mental-health/10-top-tips-for-good-mental-health/}"
+  - text: "Here is something that can make you feel better [video] {https://www.youtube.com/watch?v=jv5RtGHKLWg}"
+  - text: "Know the difference between sadness and depression [video] {https://www.youtube.com/watch?v=tNwRNmFT7-4}"
+  - text: "Here is a video for you to know how to overcome your hardtimes [video] {https://www.youtube.com/watch?v=4ZQkYSpmOdU}"
+
+
+  utter_angry:
+  - text: "Know how to deal with angry [video] {https://www.youtube.com/watch?v=PmQ2FJBJBRc}"
+  - text: "Read this quote on angry [image] {https://i.pinimg.com/originals/c2/3b/17/c23b177c84406ba5f321738eb8d7a4b1.png}"
+  - text: "Read this quote [image] {https://quotlr.com/images/quotes/the-less-you-respond-to-negative-people-the-more-peaceful-your-life-will-become.jpg}"
+  - text: "Here are few tips to control your anger [video] {https://www.youtube.com/watch?v=zpucCXdOSH8}"
+  - text: "Here are few tips to stay calm [article] {https://www.healthline.com/health/mental-health/how-to-control-anger#1}"
+  - text: "Here is a video on mindful approach to anger [video] {https://www.youtube.com/watch?v=sbVBsrNnBy8}"
+  - text: "This is how you can control your mind [video] {https://www.youtube.com/watch?v=WYfYmYbp7C4}"
+  - text: "Here is how you can deal with frustation [video] {https://www.youtube.com/watch?v=di5ebbjtdNU}"
+
+  utter_anxiety:
+   - text: "watch how to get rid of anxiety [video]  {https://www.youtube.com/watch?v=ZuKckDE1ntQ}"
+   - text: "Here are ways to cope up with anxiety [video] {https://www.youtube.com/watch?v=0dEpJIvDqOk}"
+   - text: "Here are few tips to manage anxiety [video] {https://www.youtube.com/watch?v=zQRSPHhT3C0}"
+   - text: "Here is an article on ways to reduce anxiety [article] {https://www.healthline.com/health/natural-ways-to-reduce-anxiety}"
+
+  utter_stress:
+    - text: "Watch this if u feel pressure [video] {https://www.youtube.com/watch?v=_1UbBBm3Qaw}"
+    - text: "Here is a video on how to get rid of stress and be relaxed  [video] {https://www.youtube.com/watch?v=_QCtzOb8_XA}"
+    - text: "Here are the ways to chill out and reduce stress [article] {https://www.ditchthelabel.org/101-ultimate-ways-chill-reduce-stress/?gclid=Cj0KCQjw6uT4BRD5ARIsADwJQ19wRgYyakccngD9RJAbJk1RxMR5Umlxl9k45sxhm7pobo2myUbeTfEaApIgEALw_wcB}"
+    - text: "see this video if you feel pressure [video] {https://www.youtube.com/watch?v=l4Rjis7I480}"
+    - text: "steps to overcome stress [video] {https://www.youtube.com/watch?v=9aDJfe1pcRo}"
+    - text: "Here is are few stress relief activities [video] {https://www.youtube.com/watch?v=fSRtMmXGr-w}"
+    - text: "Here is a video on stress management [video] {https://www.youtube.com/watch?v=o5uJM0An30w}"
+
+
+  utter_lonely:
+    - text: "Here are reasons why u feel lonely [video] {https://www.youtube.com/watch?v=d94ElWbeV4U}"
+    - text: "Here is a video for you about loneliness [video] {https://www.youtube.com/watch?v=gMFc7agO09w}"
+    - text: "Here is a song about loneliness [video] {https://www.youtube.com/watch?v=QQSpXuJ4z1A}"
+    - text: "Here a video of TEDX talk on loneliness [video] {https://www.youtube.com/watch?v=j-Gil9l8yIE}"
+    - text: "Here are few ways to make a converataion if you are alone or lonely [video] {https://www.youtube.com/watch?v=F4Zu5ZZAG7I}"
+    - text: "Here is an article about how to get rid of loneliness [article] {https://www.keepinspiring.me/25-creative-and-surprising-things-to-do-when-you-feel-lonely/}"
+    - text: "Here is quote to overcome loneliness [image] {https://media.images.yourquote.in/post/large/0/0/3/328/x5lV9749.jpg}"
+    - text: "Here is a quote for loneliness [image] {https://www.healthline.com/health/natural-ways-to-reduce-anxiety}"
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "Bye Have a great day"
+  - text: "see you soon bye!"
+
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  - text: "I am you virtual friend"
+  - text: "I cant play with you but can suggest you few games to play"
+  - text: "I cant cant sing a song with you but we both can listen to a song"
+  - text: "I cant dance with you but can suggest you few dance videos"
+
+  
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_motivation
+- utter_lonely
+- utter_stress
+- utter_bored
+- utter_anxiety
+- utter_judge
+- utter_did_that_help
+- utter_deny
+- utter_depression
+- utter_angry
+- utter_happy
+- utter_goodbye
+- utter_iamabot

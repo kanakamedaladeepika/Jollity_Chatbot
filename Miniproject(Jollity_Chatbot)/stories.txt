@@ -1,0 +1,256 @@
+## happy path
+* greet
+  - utter_greet
+* mood_great
+  - utter_happy
+
+## sad path 0
+* greet
+  - utter_greet
+* motivation
+  - utter_motivation
+  - utter_did_that_help
+* deny
+  - utter_deny
+* deny
+ - utter_motivation
+ - utter_did_that_help
+* affirm
+ - utter_happy
+* goodbye
+ - utter_goodbye
+
+ ## sad path 1
+* greet
+  - utter_greet
+* depression
+  - utter_depression
+  - utter_did_that_help
+* deny
+  - utter_deny
+* deny
+ - utter_depression
+ - utter_did_that_help
+* affirm
+ - utter_happy
+* goodbye
+ - utter_goodbye
+
+## sad path 2
+* greet
+  - utter_greet
+* mood_unhappy
+  - utter_cheer_up
+  - utter_did_that_help
+* deny
+  - utter_deny
+* deny
+ - utter_cheer_up
+ - utter_did_that_help
+* affirm
+ - utter_happy
+* goodbye
+ - utter_goodbye
+
+## sad path 3
+* greet
+  - utter_greet
+* angry
+  - utter_angry
+  - utter_did_that_help
+* deny
+  - utter_deny
+* deny
+ - utter_angry
+ - utter_did_that_help
+* affirm
+ - utter_happy
+* goodbye
+ - utter_goodbye
+
+## sad path 4
+* greet
+  - utter_greet
+* judge
+  - utter_judge
+  - utter_did_that_help
+* deny
+  - utter_deny
+* deny
+ - utter_judge
+ - utter_did_that_help
+* affirm
+ - utter_happy
+* goodbye
+ - utter_goodbye
+
+## sad path 5
+* greet
+  - utter_greet
+* bored
+  - utter_bored
+  - utter_did_that_help
+* deny
+  - utter_deny
+* deny
+ - utter_bored
+ - utter_did_that_help
+* affirm
+ - utter_happy
+* goodbye
+ - utter_goodbye
+
+## sad path 6
+* greet
+  - utter_greet
+* anxiety
+  - utter_anxiety
+  - utter_did_that_help
+* deny
+  - utter_deny
+* deny
+ - utter_anxiety
+ - utter_did_that_help
+* affirm
+ - utter_happy
+* goodbye
+ - utter_goodbye 
+
+## sad path 7
+* greet
+  - utter_greet
+* lonely
+  - utter_lonely
+  - utter_did_that_help
+* deny
+  - utter_deny
+* deny
+ - utter_lonely
+ - utter_did_that_help
+* affirm
+ - utter_happy
+* goodbye
+ - utter_goodbye
+
+## sad path 8
+* greet
+  - utter_greet
+* stress
+  - utter_stress
+  - utter_did_that_help
+* deny
+  - utter_deny
+* deny
+ - utter_stress
+ - utter_did_that_help
+* affirm
+ - utter_happy
+* goodbye
+ - utter_goodbye
+
+## sad path 9
+* greet
+  - utter_greet
+* lonely
+  - utter_lonely
+  - utter_did_that_help
+* affirm
+  - utter_happy
+* goodbye
+ - utter_goodbye
+
+## sad path 10
+* greet
+  - utter_greet
+* stress
+  - utter_stress
+  - utter_did_that_help
+* affirm
+  - utter_happy
+* goodbye
+ - utter_goodbye
+
+## sad path 11
+* greet
+  - utter_greet
+* bored
+  - utter_bored
+  - utter_did_that_help
+* affirm
+  - utter_happy
+* goodbye
+ - utter_goodbye
+
+## sad path 12
+* greet
+  - utter_greet
+* anxiety
+  - utter_anxiety
+  - utter_did_that_help
+* affirm
+  - utter_happy
+* goodbye
+ - utter_goodbye
+
+## sad path 13
+* greet
+  - utter_greet
+* mood_unhappy
+  - utter_cheer_up
+  - utter_did_that_help
+* affirm
+  - utter_happy
+* goodbye
+ - utter_goodbye
+
+## sad path 14
+* greet
+  - utter_greet
+* depression
+  - utter_depression
+  - utter_did_that_help
+* affirm
+  - utter_happy
+* goodbye
+ - utter_goodbye
+
+## sad path 15
+* greet
+  - utter_greet
+* motivation
+  - utter_motivation
+  - utter_did_that_help
+* affirm
+  - utter_happy
+* goodbye
+ - utter_goodbye
+
+ ## sad path 16
+* greet
+  - utter_greet
+* angry
+  - utter_angry
+  - utter_did_that_help
+* affirm
+  - utter_happy
+* goodbye
+ - utter_goodbye
+
+## sad path 17
+* greet
+  - utter_greet
+* judge
+  - utter_judge
+  - utter_did_that_help
+* affirm
+  - utter_happy
+* goodbye
+ - utter_goodbye
+
+## say goodbye
+* goodbye
+  - utter_goodbye
+
+## bot challenge
+* bot_challenge
+  - utter_iamabot
